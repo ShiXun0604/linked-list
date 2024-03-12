@@ -112,14 +112,12 @@ def rotateRight(head, k):
     if head:
         len_list += 1
 
-
     # 處理edge case
     if len_list in [0, 1]:
         return head
     else:
         tail = node
 
-    
     # 處理旋轉
     n = len_list - (k % len_list)
     if n == len_list:

@@ -41,6 +41,9 @@ list1.print_list()
 '''
 
 # 61. Rotate List
+'''
 list1 = ListNode(1, None)
 list1 = rotateRight(list1, 10)
 list1.print_list()
+'''
+
