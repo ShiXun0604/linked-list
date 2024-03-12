@@ -34,7 +34,13 @@ print(hasCycle(head))
 
 
 # 24. Swap Nodes in Pairs
-list1 = ListNode(1, None)
+'''
+list1 = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5, ListNode(6, ListNode(7, None)))))))
 list1 = swapPairs(list1)
 list1.print_list()
+'''
 
+# 61. Rotate List
+list1 = ListNode(1, None)
+list1 = rotateRight(list1, 10)
+list1.print_list()
